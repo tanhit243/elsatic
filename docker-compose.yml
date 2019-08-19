@@ -35,12 +35,12 @@ services:
   #
   ## KIBANA
   #
-  kibana:
-    build:
-      context: ./kibana
-    container_name: ta_kibana
-    ports:
-      - "5601:5601"
-    networks:
-      - es_net
+  # kibana:
+  #   build:
+  #     context: ./kibana
+  #   container_name: ta_kibana
+  #   ports:
+  #     - "5601:5601"
+  #   networks:
+  #     - es_net
 
